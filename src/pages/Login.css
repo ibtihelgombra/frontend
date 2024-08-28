@@ -1,0 +1,93 @@
+/* Background Animation */
+@keyframes animateBg {
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+  
+  /* Styling for the login container */
+  .login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Login Title */
+  .login-container h2 {
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  /* Form Input Fields */
+  .login-container .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .login-container .form-group label {
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: none;
+    border: 2px solid #0399fd;
+    border-radius: 24px;
+    color: white;
+    outline: none;
+    transition: 0.25s;
+    text-align: center;
+  }
+  
+  /* Focus effect on input fields */
+  .login-container input:focus {
+    border-color: #04fb6b;
+    width: 100%;
+  }
+  
+  /* Submit button styling */
+  .login-container button[type="submit"] {
+    border: 2px solid #04fb6b;
+    background: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: 0.25s;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .login-container button[type="submit"]:hover {
+    background: #04fb6b;
+  }
+  
+  /* Sign up link */
+  .login-container p {
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .login-container p a {
+    color: #04fb6b;
+    text-decoration: none;
+  }
+  
+  .login-container p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Error message */
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,79 @@
+/* Settings.css */
+
+.settings {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .settings h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .settings-section {
+    margin-bottom: 30px;
+  }
+  
+  .settings-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .settings-item {
+    margin-bottom: 15px;
+  }
+  
+  .settings-item label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+  
+  .settings-item input[type="text"],
+  .settings-item input[type="email"],
+  .settings-item input[type="checkbox"] {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .settings-item input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .save-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1em;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .save-button:hover {
+    background-color: #45a049;
+  }
+  
+  .settings-item input[type="text"]:focus,
+  .settings-item input[type="email"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  .settings-item input[type="checkbox"]:focus {
+    outline: none;
+  }
+  
